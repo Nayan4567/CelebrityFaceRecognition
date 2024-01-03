@@ -33,14 +33,35 @@ code of webscrapping metioned above.
 
 # Methodology for image classifier
 
-1.preprocessing : Detect eyes and face
+# preprocessing : 
 
-When we look at any image, most of the time we identify a person using a face.
-An image might contain multiple faces, also the face can be obstructed and not clear.
-The first step in our pre-processing pipeline is to detect faces from an image. 
-Once face is detected, we will detect eyes, if two eyes are detected then only we keep that image otherwise discard it.
-
+(1) Detect eyes and face
 Now how do you detect face and eyes?
 
 We will use haar cascade from opencv for this. Here is an article on this:
 https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html?highlight=haar
+
+(2)  Crop the facial region of the image
+
+(3)  Use wavelet transform as a feature for traning our model
+
+(4)  Now you should have cropped folder under datasets folder that contains cropped images
+     Manually examine cropped folder and delete any unwanted images
+
+(5) Images in cropped folder can be used for model training. We will use these raw images along with wavelet transformed images to train our classifier.
+
+ # train the model
+ (1) We will use SVM with rbf kernel tuned with heuristic finetuning
+ (2) we'll use GridSearch to try out different models with different paramets. Goal is to come up with best modle with best fine tuned parameters
+ (3) evaluation of model
+
+ # Frontend
+
+
+
+
+
+
+
+
+
