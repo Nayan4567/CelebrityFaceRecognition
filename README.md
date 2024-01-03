@@ -64,7 +64,8 @@ https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetec
  # result
  we have trained the model by SVM algorith which have achieved the acuuracy of 0.84120 on cross validation
  and accuracy of 0.9047619047619048 on x_test
- ![Uploading Screenshot (33).png…]()
+ ![Screenshot (33)](https://github.com/Nayan4567/CelebrityFaceRecognition/assets/123093364/1d7c987d-7d76-4a73-b3a5-b2bbee4ed0f9)
+
 
 
 
