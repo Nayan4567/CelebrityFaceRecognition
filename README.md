@@ -56,6 +56,11 @@ https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetec
  (3) evaluation of model
 
  # Frontend
+ (1) Python flask for http server 
+ (2) HTML/CSS/Javascript for UI
+
+ ![Screenshot (33)](https://github.com/Nayan4567/CelebrityFaceRecognition/assets/123093364/5d0f70f6-8c1b-457d-a93e-cec93f568d44)
+
 
 
 
