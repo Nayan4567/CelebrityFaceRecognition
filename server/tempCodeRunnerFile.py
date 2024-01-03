@@ -1,0 +1,1 @@
+./artifacts/class_dictionary.json
