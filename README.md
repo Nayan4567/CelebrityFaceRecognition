@@ -59,7 +59,17 @@ https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetec
  (1) Python flask for http server 
  (2) HTML/CSS/Javascript for UI
 
- ![Screenshot (33)](https://github.com/Nayan4567/CelebrityFaceRecognition/assets/123093364/5d0f70f6-8c1b-457d-a93e-cec93f568d44)
+ ![image](https://github.com/Nayan4567/CelebrityFaceRecognition/assets/123093364/5609bdc9-ae8c-4b95-962e-eb05f2e283c4)
+
+ # result
+ we have trained the model by SVM algorith which have achieved the acuuracy of 0.84120 on cross validation
+ and accuracy of 0.9047619047619048 on x_test
+ 
+![Screenshot (34)](https://github.com/Nayan4567/CelebrityFaceRecognition/assets/123093364/513eac21-3836-4953-b7b8-2d4e9cd8ed58)
+
+
+
+ 
 
 
 
